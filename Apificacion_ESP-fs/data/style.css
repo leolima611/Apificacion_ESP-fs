@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+input[type="range"] {
+  width: 60%;
+  margin: 20px;
+	touch-action: none;
+}
+
+#slider{
+  writing-mode: vertical-lr;
+  direction: rtl;
+  height: 200px;
+  width: 8px;	
+  display: block;
+  margin: 20px auto;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #ddd;
+  border-radius: 4px;
+}
+#grade{
+	height: 8px;
+	width: 400px;
+	display: block;
+  	margin: 20px auto;
+	-webkit-appearance: none;
+	appearance: none;
+	background: #ddd;
+	border-radius: 4px;
+}

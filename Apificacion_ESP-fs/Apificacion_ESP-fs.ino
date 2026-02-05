@@ -9,8 +9,8 @@ const char* password = "z9yv7tE44v";
 ESP8266WebServer server(80);
 Servo myServo;
 
-const int ledPin = 16;
-const int servoPin = 12;
+const int ledPin = 16; //gpio16 D0
+const int servoPin = 12; //gpio12 D6
 const int bateryPin = A0;
 
 void handleBrightness(){
@@ -63,7 +63,6 @@ void setup() {
   analogWrite(ledPin, 0);
   
   myServo.attach(servoPin);
-  myServo.write(90);
   
   pinMode(bateryPin, INPUT);
   
